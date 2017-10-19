@@ -1,0 +1,109 @@
+.specialdiv{width:55px;
+			background-color:pink}
+			
+.specialimg{margin-top:180px;}
+
+.JS{text-align:center;}
+
+* {
+  font-family: helvetica;
+  color: white;
+}
+
+footer .div5 {margin-top:100px;
+			  position:fixed;}
+
+#div01 {
+  height: 280px;
+  margin-top: 50px;
+  
+}
+
+#produto1 {
+
+	max-width:100%;
+    margin-top: 50px;
+	}
+
+#p1 {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+#p2 {
+  font-size: 12px;
+}
+
+.p1 {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+#link1 {
+  text-decoration: none;
+  float: right;
+  margin-right: 37px;
+  margin-top: 10px;
+  color: white;
+}
+
+#link2 {
+  text-decoration: none;
+  float: left;
+  margin-top: 10px;
+  color: white;
+}
+
+#link1:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+
+#link2:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+
+#button1 {
+  margin-top: 40px;
+  font-size: 12px;
+  
+  margin-left: 15px;
+  background-color: red;
+  border: red;
+}
+
+#button1:hover {
+  background-color: #b20000;
+  transition: 0.3s;
+}
+
+#button2 {
+  margin-top: 13px;
+  font-size: 12px;
+  float: left;
+  height: 25px;
+  width: 140px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: red;
+}
+
+#button2clone {
+  margin-top: 13px;
+  font-size: 12px;
+  width: 143px;
+  background-color: red;
+  color: white;
+  border: red;
+  margin-left: 15px;
+  margin-bottom:60px;
+}
+
+#button2clone:hover {
+  background-color: #b20000;
+  transition: 0.3s;
+}

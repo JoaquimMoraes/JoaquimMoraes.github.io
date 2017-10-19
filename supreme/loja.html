@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+      <title>Roupa e acessórios</title>
+      <meta charset="utf-8"/>
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link type="text/css" rel="stylesheet" href="fonts/font-awesome.min.css"/>
+      <link type="text/css" rel="stylesheet" href="css/loja.css"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+   </head>
+   <body>
+      <header>
+		<div class="container-fluid">
+         <div class="row">
+			<div class="col-md-5 col-sm-5 col-xs-2"> </div>
+			<div class="logo11 col-md-7 col-sm-7 col-xs-8"> <a href="entrar.html"> <img class="logo1" src="img/supreme.png"/> </a> </div>
+         </div>
+		 </div>
+      </header>
+      <div class="div1">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="right col-md-8 col-sm-7 col-xs-7">
+                  <div class="row" id="row1">
+                     <div class="order col-xs-12">
+                        <form action="form_send.php" method="post">
+                           <p class="pp">Ordenar por</p>
+                           <select id="item2" name="opções">
+                              <option value="1">Promoções</option>
+                              <option value="2">Mais vendidos</option>
+                              <option value="3">Ordem alfabética, A-Z</option>
+                              <option value="4">Ordem alfabética, Z-A</option>
+                           </select>
+                        </form>
+                     </div>
+                     <div id="div03" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto.html"><img id="img1" src="img/cap.jpg"/></a>
+                        <p>Boné azul escuro</p>
+                        <div id="divpreço">19<sup>99€</sup></div>
+                     </div>
+                     <div id="div03" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto2.html"><img id="img1" src="img/red.jpg"/></a>
+                        <p>Boné vermelho</p>
+                        <div id="divpreço">19<sup>99€</sup></div>
+                     </div>
+                     <div id="div03" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto3.html"><img id="img1" src="img/black.jpg"/></a>
+                        <p>Sweat preta</p>
+                        <div id="divpreço">29<sup>99€</sup></div>
+                     </div>
+                     <div id="div03" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto4.html"><img id="img1" src="img/white.jpg"/></a>
+                        <p>Sweat cinza</p>
+                        <div id="divpreço">29<sup>99€</sup></div>
+                     </div>
+                     <div id="div02" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto5.html"><img id="img1" src="img/belt1.jpg"/></a>
+                        <p>Cinto preto</p>
+                        <div id="divpreço2">14<sup>99€</sup></div>
+                     </div>
+                     <div id="div02" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto6.html"><img id="img1" src="img/belt2.jpg"/></a>
+                        <p>Cinto vermelho</p>
+                        <div id="divpreço2">14<sup>99€</sup></div>
+                     </div>
+                     <div id="div02" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto7.html"><img id="img1" src="img/sneaker.jpg"/></a>
+                        <p>Par AirJordan pretas</p>
+                        <div id="divpreço2">69<sup>99€</sup></div>
+                     </div>
+                     <div id="div02" class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="produto8.html"><img id="img1" src="img/green.jpg"/></a>
+                        <p>Par AirJordan camo</p>
+                        <div id="divpreço2">69<sup>99€</sup></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="left col-md-2 col-md-push-6 col-sm-2 col-sm-push-4 col-xs-5 col-xs-push-0 col-xs-pull-1 col-sm-pull-0 col-md-pull-0">
+                  <form action="form_send.php" method="post">
+                     <p>Categoria</p>
+                     <label><input type="checkbox" name="categoria" value="Bonés"> Bonés</label><br>
+                     <label><input type="checkbox" name="categoria" value="Sweats"> Sweats</label><br>
+                     <label><input type="checkbox" name="categoria" value="Cintos"> Cintos</label><br>
+                     <label><input type="checkbox" name="categoria" value="Sapatilhas"> Sapatilhas</label><br>
+                  </form>
+                  <input id="filtrar" type="submit" value="Filtrar">
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer id="footer1">
+         <div class="div5">
+            <ul>
+            <li><a href="entrar.html">Home</a></li>
+            <li><a class="active" href="loja.html">Loja</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+         </div>
+      </footer>
+   <script src="js/jquery-2.2.min.js"> </body>
+</html>

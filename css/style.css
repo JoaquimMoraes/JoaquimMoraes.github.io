@@ -1,0 +1,144 @@
+#divx1 {
+  text-align: justify;
+  height: 350px;
+  font-size:17px;
+  display: table;
+  margin: 0 auto;
+  margin-bottom:40px;
+}
+
+.p1 {text-align:center;
+	 position:center;
+     font-size:10vw;
+	 font-weight:bold;
+	}
+
+#id1 {padding:5px;}
+
+footer {width: 100%;
+  clear: both;
+}
+
+footer ul li {
+  display: inline;
+}
+
+.footerdiv {
+  text-align: center;
+  background-color: gray;
+  border: 2px solid #8aacb8;
+}
+
+.footerdiv a {
+  padding-right: 20px;
+}
+
+.footerdiv a i:hover {
+  transition: 1s;
+  background-color: black;
+}
+
+
+
+
+
+#mainlogo {width: 190px;
+		   height: 200px;
+		   padding-top:15px;
+		   padding-left:10px;
+		  }
+
+.nav1 {
+  height: 42px;
+  width: 100%;
+  background-color: #8aacb8
+}
+
+nav ul {text-align: center;}
+
+nav ul li {
+  border: solid 2px #566c73;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline;
+  background-color: lightblue;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+}
+
+nav ul li:hover {
+  background-color: #67818a;
+  transition: 1s;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  font-family: helvetica;
+  color: white;
+}
+
+nav {
+  height: 50px;
+  background-color: #333;
+}
+
+header {
+  background-color:;
+  height: 220px;
+  margin: auto;
+  width: 100%;
+  background-image: url('../img/floral.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+body {
+  padding: 0;
+  background-image: url('../img/alt.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.div1 {
+  height: 550px;
+}
+
+.div5 {
+  background-color: #101010;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.div5 a {
+  padding: 12px 20px 12px 20px;
+}
+
+.div5 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.div5 ul li a:hover {
+  background-color: #252724;
+  transition: 0.3s;
+}
+
+.active {
+  background-color: #67818a
+}
+		 

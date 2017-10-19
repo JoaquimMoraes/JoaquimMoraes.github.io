@@ -1,0 +1,70 @@
+.sound {float:right;
+		margin-top:90px;}
+
+.div11 {
+  margin-top: 50px;
+}
+
+.logo11 {
+  height: 100px;
+  max-width: 100%;
+  margin-top: 20px;
+  
+}
+
+#mainlogo {margin-left:20px;}
+
+#eliteUL {padding-left:60px;}
+
+#eliteRow {padding-left:105px;}
+
+.div2 {
+
+  margin-top: 25px;
+}
+
+.div3 {
+  margin-top: 10px;
+}
+
+
+
+ul li {
+  display: inline;
+  padding-left: 30px;
+}
+
+li a {
+  width: 70px;
+  display: block;
+  text-align: left;
+}
+
+#fa1 {
+  color: gray;
+}
+
+#fa2 {
+  margin-left: 20px;
+  color: gray;
+}
+
+#fa1:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+#fa2:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+#item1 {
+  text-decoration: none;
+  color: white;
+}
+
+#item1:hover {
+  background-color: red;
+  transition: 0.3s;
+}
